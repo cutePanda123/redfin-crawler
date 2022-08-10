@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const queryTimes = 30;
 const waitTime = 3000;
-const url = 'https://redf.in/H6G7iV';
+const url = <-PROPERTY-URL->;
 (async () => {
   for (var i = 0; i < queryTimes; i++) {
     try {
