@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const queryTimes = 30;
-const waitTime = 3000;
-const url = 'https://redf.in/H6G7iV';
+const waitTime = 30000;   // wait for 30 seconds between two requests
+const url = 'https://www.redfin.com/VA/Vienna/2710-Earls-Ct-22181/home/9527207';
 (async () => {
   for (var i = 0; i < queryTimes; i++) {
     try {
